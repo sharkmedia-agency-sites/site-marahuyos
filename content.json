@@ -1,0 +1,282 @@
+{
+  "site_name": "jovdim",
+  "schema_version": "1.0",
+  "sections": [
+    {
+      "type": "navigation",
+      "id": "navigation_1",
+      "label": "Navigation",
+      "order": 1,
+      "fields": {
+        "logo_text": "jovdim",
+        "logo_image": "https://ownvcvrqjdgksdwytskr.supabase.co/storage/v1/object/public/logos/1772876535805-qnfls0.jpg",
+        "links": [
+          {
+            "id": "nav_1",
+            "label": "Domov",
+            "url": "#domov"
+          },
+          {
+            "id": "nav_2",
+            "label": "O nás",
+            "url": "#o-nas"
+          },
+          {
+            "id": "nav_3",
+            "label": "Služby",
+            "url": "#sluzby"
+          },
+          {
+            "id": "nav_4",
+            "label": "Kontakt",
+            "url": "#kontakt"
+          }
+        ],
+        "cta_text": "Zavolajte nám",
+        "cta_url": "tel:123445"
+      }
+    },
+    {
+      "type": "hero",
+      "id": "hero_1",
+      "label": "Hero Banner",
+      "order": 2,
+      "fields": {
+        "headline": "Vaša Dôvera, Naša Priorita",
+        "subheadline": "jovdim the best tagline – Profesionálne právne služby s dlhoročnou skúsenosťou a odhodlaním chrániť vaše záujmy v každej situácii.",
+        "cta_text": "Získajte bezplatnú konzultáciu",
+        "cta_url": "#kontakt",
+        "background_image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=80"
+      }
+    },
+    {
+      "type": "about",
+      "id": "about_1",
+      "label": "About Section",
+      "order": 3,
+      "fields": {
+        "headline": "O Nás – jovdim Právna Kancelária",
+        "text": "Sme tím skúsených právnikov so sídlom v meste jovdim, ktorí sa venujú poskytovaniu odborných právnych služieb fyzickým osobám, podnikateľom aj korporáciám. Naša kancelária bola založená s cieľom poskytnúť každému klientovi individuálny prístup, spoľahlivé rady a maximálnu ochranu jeho práv. Veríme, že kvalitné právne zastúpenie by malo byť dostupné pre každého. Naša práca je postavená na dôvere, transparentnosti a odbornosti. Každý prípad riešime s maximálnym nasadením a diskrétnosťou, pretože vaše záujmy sú pre nás na prvom mieste. V právnej kancelárii jovdim nájdete odborníkov v oblasti obchodného, rodinného, trestného práva a práva nehnuteľností. Sme tu pre vás v každom kroku vášho právneho procesu, od prvej konzultácie až po úspešné vyriešenie vášho prípadu.",
+        "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&q=80",
+        "stats": [
+          {
+            "id": "stat_1",
+            "value": "15+",
+            "label": "Rokov skúseností"
+          },
+          {
+            "id": "stat_2",
+            "value": "1200+",
+            "label": "Spokojných klientov"
+          },
+          {
+            "id": "stat_3",
+            "value": "98%",
+            "label": "Úspešnosť prípadov"
+          }
+        ]
+      }
+    },
+    {
+      "type": "services_grid",
+      "id": "services_grid_1",
+      "label": "Services",
+      "order": 4,
+      "fields": {
+        "headline": "Naše Právne Služby",
+        "items": [
+          {
+            "id": "svc_1",
+            "title": "Obchodné právo",
+            "description": "Poskytujeme komplexné právne poradenstvo v oblasti obchodného práva – zakladanie spoločností, zmluvy, obchodné spory, fúzie a akvizície. Chráňte svoje podnikanie s našou odbornou pomocou.",
+            "icon": "briefcase",
+            "image": "https://images.unsplash.com/photo-1542744094-3a31f272c490?w=600&q=80"
+          },
+          {
+            "id": "svc_2",
+            "title": "Rodinné právo",
+            "description": "Zastupujeme klientov vo veciach rozvodu, starostlivosti o deti, výživného a dedičstva. Pristupujeme k rodinným prípadom s empatiou a diskrétnosťou, aby sme chránili záujmy celej rodiny.",
+            "icon": "heart",
+            "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&q=80"
+          },
+          {
+            "id": "svc_3",
+            "title": "Trestné právo",
+            "description": "Naši právnici zabezpečujú silnú obhajobu v trestných veciach. Či už čelíte obvineniu alebo potrebujete právne zastúpenie, sme pripravení bojovať za vaše práva v každej fáze konania.",
+            "icon": "shield",
+            "image": "https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=600&q=80"
+          },
+          {
+            "id": "svc_4",
+            "title": "Nehnuteľnosti",
+            "description": "Pomáhame pri kúpe, predaji, prenájme a sporoch týkajúcich sa nehnuteľností. Zabezpečíme, že každá transakcia prebehne bezpečne, legálne a v súlade s platnou legislatívou.",
+            "icon": "home",
+            "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=80"
+          }
+        ]
+      }
+    },
+    {
+      "type": "team",
+      "id": "team_1",
+      "label": "Team",
+      "order": 5,
+      "fields": {
+        "headline": "Náš Tím Odborníkov",
+        "items": [
+          {
+            "id": "team_1",
+            "name": "JUDr. Marek Novák",
+            "role": "Vedúci partner – Obchodné právo",
+            "bio": "JUDr. Marek Novák má viac ako 15 rokov praxe v oblasti obchodného práva. Je uznávaným odborníkom na firemné právo, zmluvy a riešenie obchodných sporov. Jeho klienti oceňujú jeho precíznosť a strategické myslenie.",
+            "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80"
+          },
+          {
+            "id": "team_2",
+            "name": "JUDr. Katarína Horváthová",
+            "role": "Partnerka – Rodinné právo",
+            "bio": "JUDr. Katarína Horváthová je špecializovaná na rodinné právo a dedičské konania. S citlivým prístupom a odbornou znalosťou pomáha klientom prekonávať náročné životné situácie s dôstojnosťou a efektivitou.",
+            "image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400&q=80"
+          },
+          {
+            "id": "team_3",
+            "name": "Mgr. Tomáš Kováč",
+            "role": "Advokát – Trestné právo",
+            "bio": "Mgr. Tomáš Kováč sa venuje obhajobe v trestných veciach a zastupovaniu poškodených. Jeho rozsiahle skúsenosti v súdnej sieni a hlboká znalosť trestného práva zaručujú klientom silné zastúpenie.",
+            "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80"
+          },
+          {
+            "id": "team_4",
+            "name": "JUDr. Lucia Procházková",
+            "role": "Advokátka – Nehnuteľnosti",
+            "bio": "JUDr. Lucia Procházková je expertkou na právne aspekty realitných transakcií, katastrálne konania a spory o vlastníctvo. Klientom poskytuje komplexný servis pri každej nehnuteľnostnej transakcii.",
+            "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80"
+          }
+        ]
+      }
+    },
+    {
+      "type": "testimonials",
+      "id": "testimonials_1",
+      "label": "Testimonials",
+      "order": 6,
+      "fields": {
+        "headline": "Čo Hovoria Naši Klienti",
+        "items": [
+          {
+            "id": "test_1",
+            "name": "Peter Sloboda",
+            "role": "Podnikateľ, jovdim",
+            "text": "Právna kancelária jovdim mi pomohla vyriešiť zložitý obchodný spor, ktorý trval roky. Vďaka ich profesionalite a nasadeniu sme dosiahli výborný výsledok. Vrelo odporúčam každému podnikateľovi!",
+            "rating": 5,
+            "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80"
+          },
+          {
+            "id": "test_2",
+            "name": "Mária Benešová",
+            "role": "Súkromná osoba, jovdim",
+            "text": "Po rozvode som potrebovala pomoc s úpravou starostlivosti o deti. Pani doktorka Horváthová bola nielen odborne zdatná, ale aj ľudsky veľmi empatická. Cítila som sa v bezpečí počas celého procesu.",
+            "rating": 5,
+            "avatar": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=200&q=80"
+          },
+          {
+            "id": "test_3",
+            "name": "Rastislav Mináč",
+            "role": "Investor do nehnuteľností",
+            "text": "Pri kúpe komerčnej nehnuteľnosti som potreboval spoľahlivého právnika. Tím jovdim skontroloval všetky zmluvy, odhalil skryté riziká a zabezpečil bezpečnú transakciu. Ich práca stojí za každý cent!",
+            "rating": 5,
+            "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80"
+          }
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "id": "faq_1",
+      "label": "FAQ",
+      "order": 7,
+      "fields": {
+        "headline": "Často Kladené Otázky",
+        "items": [
+          {
+            "id": "faq_1",
+            "question": "Ako si môžem dohodnúť konzultáciu?",
+            "answer": "Konzultáciu si môžete dohodnúť telefonicky na čísle 123445, e-mailom na jovdm.company.sk alebo prostredníctvom kontaktného formulára na našej webstránke. Prvá konzultácia je bezplatná."
+          },
+          {
+            "id": "faq_2",
+            "question": "Koľko stojí právne zastúpenie?",
+            "answer": "Cena právnych služieb závisí od druhu a náročnosti prípadu. Po úvodnej konzultácii vám poskytneme transparentnú cenovú ponuku bez skrytých poplatkov. Pracujeme na základe hodinovej odmeny alebo paušálneho poplatku."
+          },
+          {
+            "id": "faq_3",
+            "question": "Ako dlho trvá riešenie právneho prípadu?",
+            "answer": "Dĺžka riešenia prípadu závisí od jeho komplexnosti a typu konania. Jednoduché zmluvy môžeme pripraviť do niekoľkých dní, zatiaľ čo súdne spory môžu trvať mesiace. Vždy vás budeme priebežne informovať o stave vášho prípadu."
+          },
+          {
+            "id": "faq_4",
+            "question": "Zachováte diskrétnosť mojich informácií?",
+            "answer": "Áno, absolútne. Všetky informácie, ktoré nám zdieľate, sú chránené advokátskou mlčanlivosťou. Vaše osobné a právne záležitosti zostanú prísne dôverné v súlade s platnou legislatívou."
+          },
+          {
+            "id": "faq_5",
+            "question": "Zastupujete klientov aj mimo mesta jovdim?",
+            "answer": "Áno, zastupujeme klientov na celom území Slovenska. Hoci naša kancelária sídli v meste jovdim, nemáme geografické obmedzenia a sme schopní zastupovať klientov na všetkých slovenských súdoch a úradoch."
+          },
+          {
+            "id": "faq_6",
+            "question": "Čo mám priniesť na prvú konzultáciu?",
+            "answer": "Na prvú konzultáciu prineste všetky relevantné dokumenty súvisiace s vaším prípadom – zmluvy, korešpondenciu, rozhodnutia úradov alebo súdov a akékoľvek iné podklady. Čím viac informácií prinesiete, tým presnejšiu radu vám môžeme poskytnúť."
+          }
+        ]
+      }
+    },
+    {
+      "type": "contact",
+      "id": "contact_1",
+      "label": "Contact",
+      "order": 8,
+      "fields": {
+        "headline": "Kontaktujte Nás",
+        "text": "Ste pripravení urobiť prvý krok k vyriešeniu vášho právneho problému? Neváhajte nás kontaktovať. Náš tím je k dispozícii pre vaše otázky a bezplatnú úvodnú konzultáciu. Sme tu pre vás.",
+        "phone": "123445",
+        "email": "jovdm.company.sk",
+        "address": "jovdim address",
+        "map_embed_url": "https://maps.google.com/maps?q=jovdim%20address&output=embed"
+      }
+    },
+    {
+      "type": "footer",
+      "id": "footer_1",
+      "label": "Footer",
+      "order": 9,
+      "fields": {
+        "logo_text": "jovdim",
+        "description": "jovdim je dôveryhodná právna kancelária v meste jovdim, poskytujúca odborné právne služby v oblasti obchodného, rodinného, trestného práva a nehnuteľností. Vaše záujmy sú naša priorita.",
+        "links": [
+          {
+            "id": "footer_nav_1",
+            "label": "Domov",
+            "url": "#domov"
+          },
+          {
+            "id": "footer_nav_2",
+            "label": "O nás",
+            "url": "#o-nas"
+          },
+          {
+            "id": "footer_nav_3",
+            "label": "Služby",
+            "url": "#sluzby"
+          },
+          {
+            "id": "footer_nav_4",
+            "label": "Kontakt",
+            "url": "#kontakt"
+          }
+        ],
+        "copyright_text": "© 2026 jovdim. Všetky práva vyhradené."
+      }
+    }
+  ]
+}

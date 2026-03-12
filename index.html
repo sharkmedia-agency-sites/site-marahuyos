@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="jovdim - lawyer v jovdim town">
+  <title>jovdim</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="navigation_1" data-section="navigation_1" class="nav-section">
+  <div class="container nav-inner">
+    <a href="#domov" class="nav-logo">
+      <img src="https://ownvcvrqjdgksdwytskr.supabase.co/storage/v1/object/public/logos/1772876535805-qnfls0.jpg" alt="jovdim" height="36" loading="lazy" class="nav-logo-img">
+    </a>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-hidden="true">
+
+    <nav class="nav-menu" role="navigation" aria-label="Hlavná navigácia">
+      <ul class="nav-links">
+        <li><a href="#domov" class="nav-link" data-field="nav_1">Domov</a></li>
+        <li><a href="#o-nas" class="nav-link" data-field="nav_2">O nás</a></li>
+        <li><a href="#sluzby" class="nav-link" data-field="nav_3">Služby</a></li>
+        <li><a href="#kontakt" class="nav-link" data-field="nav_4">Kontakt</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="tel:123445" class="nav-cta" data-field="cta">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1.18 2 2 0 012 .01h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/>
+        </svg>
+        <span>Zavolajte nám</span>
+      </a>
+
+      <label for="nav-toggle" class="nav-hamburger" aria-label="Otvoriť menu" role="button" tabindex="0">
+        <span class="nav-hamburger-bar"></span>
+        <span class="nav-hamburger-bar"></span>
+        <span class="nav-hamburger-bar"></span>
+      </label>
+    </div>
+  </div>
+
+  <div class="nav-mobile-overlay">
+    <label for="nav-toggle" class="nav-mobile-backdrop" aria-hidden="true"></label>
+    <div class="nav-mobile-drawer">
+      <ul class="nav-mobile-links">
+        <li><a href="#domov" class="nav-mobile-link">Domov</a></li>
+        <li><a href="#o-nas" class="nav-mobile-link">O nás</a></li>
+        <li><a href="#sluzby" class="nav-mobile-link">Služby</a></li>
+        <li><a href="#kontakt" class="nav-mobile-link">Kontakt</a></li>
+      </ul>
+      <a href="tel:123445" class="nav-cta nav-cta-mobile">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1.18 2 2 0 012 .01h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/>
+        </svg>
+        <span>Zavolajte nám</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+<script>
+  (function () {
+    var section = document.getElementById('navigation_1');
+    var toggle = document.getElementById('nav-toggle');
+
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > 10) {
+        section.classList.add('nav-scrolled');
+      } else {
+        section.classList.remove('nav-scrolled');
+      }
+    });
+
+    document.querySelectorAll('.nav-mobile-link, .nav-cta-mobile').forEach(function (link) {
+      link.addEventListener('click', function () {
+        if (toggle) toggle.checked = false;
+      });
+    });
+  })();
+</script>
+
+<section id="hero_1" data-section="hero_1" class="animate-on-scroll hero-section">
+  <img class="hero-bg" src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=80" alt="" />
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <div class="hero-accent-line"></div>
+    <h1 data-field="headline">Vaša Dôvera,<br>Naša Priorita</h1>
+    <p data-field="subheadline">Profesionálne právne služby s dlhoročnou skúsenosťou a odhodlaním chrániť vaše záujmy v každej situácii.</p>
+    <a href="#kontakt" class="hero-cta" data-field="cta_text">
+      Získajte bezplatnú konzultáciu
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+    <div class="hero-trust-bar">
+      <div class="hero-trust-item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <span>15+ rokov skúseností</span>
+      </div>
+      <div class="hero-trust-divider"></div>
+      <div class="hero-trust-item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        <span>500+ spokojných klientov</span>
+      </div>
+      <div class="hero-trust-divider"></div>
+      <div class="hero-trust-item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+        <span>Bezplatná prvá konzultácia</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll-indicator">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+  </div>
+  <svg class="hero-deco-shape" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <circle cx="100" cy="100" r="90" fill="none" stroke="currentColor" stroke-width="1"/>
+    <circle cx="100" cy="100" r="70" fill="none" stroke="currentColor" stroke-width="0.5"/>
+  </svg>
+</section>
+
+<section id="about_1" data-section="about_1" class="animate-on-scroll">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-image-wrap animate-child">
+        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&q=80" alt="jovdim Právna Kancelária" loading="lazy" />
+        <div class="about-image-accent"></div>
+        <div class="about-image-dots">
+          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="4" cy="4" r="2.5" fill="#ba8936" opacity="0.35"/>
+            <circle cx="20" cy="4" r="2.5" fill="#ba8936" opacity="0.35"/>
+            <circle cx="36" cy="4" r="2.5" fill="#ba8936" opacity="0.35"/>
+            <circle cx="52" cy="4" r="2.5" fill="#ba8936" opacity="0.35"/>
+            <circle cx="4" cy="20" r="2.5" fill="#ba8936" opacity="0.35"/>
+            <circle cx="20" cy="20" r="2.5" fill="#ba8936" opacity="0.35"/>
+            <circle cx="36" cy="20" r="2.5" fill="#ba8936" opacity="0.35"/>
+            <circle cx="52" cy="20" r="2.5" fill="#ba8936" opacity="0.35"/>
+            <circle cx="4" cy="36" r="2.5" fill="#ba8936" opacity="0.35"/>
+            <circle cx="20" cy="36" r="2.5" fill="#ba8936" opacity="0.35"/>
+            <circle cx="36" cy="36" r="2.5" fill="#ba8936" opacity="0.35"/>
+            <circle cx="52" cy="36" r="2.5" fill="#ba8936" opacity="0.35"/>
+            <circle cx="4" cy="52" r="2.5" fill="#ba8936" opacity="0.35"/>
+            <circle cx="20" cy="52" r="2.5" fill="#ba8936" opacity="0.35"/>
+            <circle cx="36" cy="52" r="2.5" fill="#ba8936" opacity="0.35"/>
+            <circle cx="52" cy="52" r="2.5" fill="#ba8936" opacity="0.35"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="about-text animate-child">
+        <div class="about-accent-line"></div>
+        <h2 data-field="headline">O Nás – jovdim Právna Kancelária</h2>
+        <div class="about-body" data-field="text">
+          <p>Sme tím skúsených právnikov so sídlom v meste jovdim, ktorí sa venujú poskytovaniu odborných právnych služieb fyzickým osobám, podnikateľom aj korporáciám. Naša kancelária bola založená s cieľom poskytnúť každému klientovi individuálny prístup, spoľahlivé rady a maximálnu ochranu jeho práv.</p>
+          <p>Veríme, že kvalitné právne zastúpenie by malo byť dostupné pre každého. Naša práca je postavená na dôvere, transparentnosti a odbornosti. Každý prípad riešime s maximálnym nasadením a diskrétnosťou, pretože vaše záujmy sú pre nás na prvom mieste.</p>
+          <p>V právnej kancelárii jovdim nájdete odborníkov v oblasti obchodného, rodinného, trestného práva a práva nehnuteľností. Sme tu pre vás v každom kroku vášho právneho procesu, od prvej konzultácie až po úspešné vyriešenie vášho prípadu.</p>
+        </div>
+
+        <div class="about-divider"></div>
+
+        <div class="about-stats">
+          <div class="about-stat" id="stat_1">
+            <span class="about-stat-value">15+</span>
+            <span class="about-stat-label">Rokov skúseností</span>
+          </div>
+          <div class="about-stat-separator" aria-hidden="true"></div>
+          <div class="about-stat" id="stat_2">
+            <span class="about-stat-value">1200+</span>
+            <span class="about-stat-label">Spokojných klientov</span>
+          </div>
+          <div class="about-stat-separator" aria-hidden="true"></div>
+          <div class="about-stat" id="stat_3">
+            <span class="about-stat-value">98%</span>
+            <span class="about-stat-label">Úspešnosť prípadov</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<script>
+  (function() {
+    var section = document.getElementById('about_1');
+    if (!section) return;
+    if ('IntersectionObserver' in window) {
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+      observer.observe(section);
+    } else {
+      section.classList.add('is-visible');
+    }
+  })();
+</script>
+
+<section id="services_grid_1" data-section="services_grid_1" class="animate-on-scroll" style="background:var(--bg-alt)">
+  <div class="container">
+    <div class="services-header">
+      <h2 data-field="headline">Naše Právne Služby</h2>
+      <div class="services-header-accent"></div>
+    </div>
+    <div class="services-grid">
+
+      <div class="services-card animate-child" data-field="items" data-item="svc_1">
+        <img src="https://images.unsplash.com/photo-1542744094-3a31f272c490?w=600&q=80" loading="lazy" alt="Obchodné právo" />
+        <div class="services-card-body">
+          <div class="services-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+              <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/>
+              <line x1="12" y1="12" x2="12" y2="16"/>
+              <line x1="10" y1="14" x2="14" y2="14"/>
+            </svg>
+          </div>
+          <h3>Obchodné právo</h3>
+          <p>Poskytujeme komplexné právne poradenstvo v oblasti obchodného práva – zakladanie spoločností, zmluvy, obchodné spory, fúzie a akvizície. Chráňte svoje podnikanie s našou odbornou pomocou.</p>
+        </div>
+      </div>
+
+      <div class="services-card animate-child" data-field="items" data-item="svc_2">
+        <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&q=80" loading="lazy" alt="Rodinné právo" />
+        <div class="services-card-body">
+          <div class="services-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              <path d="M9 12c0-1.66 1.34-3 3-3s3 1.34 3 3" stroke-dasharray="2 1"/>
+            </svg>
+          </div>
+          <h3>Rodinné právo</h3>
+          <p>Zastupujeme klientov vo veciach rozvodu, starostlivosti o deti, výživného a dedičstva. Pristupujeme k rodinným prípadom s empatiou a diskrétnosťou, aby sme chránili záujmy celej rodiny.</p>
+        </div>
+      </div>
+
+      <div class="services-card animate-child" data-field="items" data-item="svc_3">
+        <img src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=600&q=80" loading="lazy" alt="Trestné právo" />
+        <div class="services-card-body">
+          <div class="services-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L3 7v6c0 5.25 3.75 10.15 9 11.25C17.25 23.15 21 18.25 21 13V7L12 2z"/>
+              <polyline points="9 12 11 14 15 10"/>
+            </svg>
+          </div>
+          <h3>Trestné právo</h3>
+          <p>Naši právnici zabezpečujú silnú obhajobu v trestných veciach. Či už čelíte obvineniu alebo potrebujete právne zastúpenie, sme pripravení bojovať za vaše práva v každej fáze konania.</p>
+        </div>
+      </div>
+
+      <div class="services-card animate-child" data-field="items" data-item="svc_4">
+        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=80" loading="lazy" alt="Nehnuteľnosti" />
+        <div class="services-card-body">
+          <div class="services-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/>
+              <polyline points="9 21 9 13 15 13 15 21"/>
+              <line x1="12" y1="3" x2="12" y2="7"/>
+            </svg>
+          </div>
+          <h3>Nehnuteľnosti</h3>
+          <p>Pomáhame pri kúpe, predaji, prenájme a sporoch týkajúcich sa nehnuteľností. Zabezpečíme, že každá transakcia prebehne bezpečne, legálne a v súlade s platnou legislatívou.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="team_1" data-section="team_1" class="animate-on-scroll">
+  <div class="container">
+    <div class="team-header">
+      <span class="team-eyebrow">Spoznajte nás</span>
+      <h2>Náš Tím Odborníkov</h2>
+      <div class="team-header-accent"></div>
+      <p class="team-header-sub">Skúsení právnici oddaní vašim záujmom. Každý člen nášho tímu prináša hlboké odborné znalosti a osobný záväzok voči každému klientovi.</p>
+    </div>
+    <div class="team-grid">
+
+      <div class="team-card animate-child" data-field="items" data-item="team_1">
+        <div class="team-photo">
+          <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80" loading="lazy" alt="JUDr. Marek Novák" />
+          <div class="team-photo-overlay">
+            <div class="team-overlay-inner">
+              <span class="team-overlay-label">Obchodné právo</span>
+              <div class="team-overlay-divider"></div>
+              <span class="team-overlay-exp">15+ rokov praxe</span>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-body">
+          <div class="team-card-top">
+            <h3>JUDr. Marek Novák</h3>
+            <span class="team-role">Vedúci partner – Obchodné právo</span>
+          </div>
+          <p>JUDr. Marek Novák má viac ako 15 rokov praxe v oblasti obchodného práva. Je uznávaným odborníkom na firemné právo, zmluvy a riešenie obchodných sporov. Jeho klienti oceňujú jeho precíznosť a strategické myslenie.</p>
+          <div class="team-card-footer">
+            <div class="team-badge">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Certifikovaný odborník
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-card animate-child" data-field="items" data-item="team_2">
+        <div class="team-photo">
+          <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400&q=80" loading="lazy" alt="JUDr. Katarína Horváthová" />
+          <div class="team-photo-overlay">
+            <div class="team-overlay-inner">
+              <span class="team-overlay-label">Rodinné právo</span>
+              <div class="team-overlay-divider"></div>
+              <span class="team-overlay-exp">12+ rokov praxe</span>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-body">
+          <div class="team-card-top">
+            <h3>JUDr. Katarína Horváthová</h3>
+            <span class="team-role">Partnerka – Rodinné právo</span>
+          </div>
+          <p>JUDr. Katarína Horváthová je špecializovaná na rodinné právo a dedičské konania. S citlivým prístupom a odbornou znalosťou pomáha klientom prekonávať náročné životné situácie s dôstojnosťou a efektivitou.</p>
+          <div class="team-card-footer">
+            <div class="team-badge">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Certifikovaný odborník
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-card animate-child" data-field="items" data-item="team_3">
+        <div class="team-photo">
+          <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80" loading="lazy" alt="Mgr. Tomáš Kováč" />
+          <div class="team-photo-overlay">
+            <div class="team-overlay-inner">
+              <span class="team-overlay-label">Trestné právo</span>
+              <div class="team-overlay-divider"></div>
+              <span class="team-overlay-exp">10+ rokov praxe</span>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-body">
+          <div class="team-card-top">
+            <h3>Mgr. Tomáš Kováč</h3>
+            <span class="team-role">Advokát – Trestné právo</span>
+          </div>
+          <p>Mgr. Tomáš Kováč sa venuje obhajobe v trestných veciach a zastupovaniu poškodených. Jeho rozsiahle skúsenosti v súdnej sieni a hlboká znalosť trestného práva zaručujú klientom silné zastúpenie.</p>
+          <div class="team-card-footer">
+            <div class="team-badge">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Certifikovaný odborník
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-card animate-child" data-field="items" data-item="team_4">
+        <div class="team-photo">
+          <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80" loading="lazy" alt="JUDr. Lucia Procházková" />
+          <div class="team-photo-overlay">
+            <div class="team-overlay-inner">
+              <span class="team-overlay-label">Nehnuteľnosti</span>
+              <div class="team-overlay-divider"></div>
+              <span class="team-overlay-exp">11+ rokov praxe</span>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-body">
+          <div class="team-card-top">
+            <h3>JUDr. Lucia Procházková</h3>
+            <span class="team-role">Advokátka – Nehnuteľnosti</span>
+          </div>
+          <p>JUDr. Lucia Procházková je expertkou na právne aspekty realitných transakcií, katastrálne konania a spory o vlastníctvo. Klientom poskytuje komplexný servis pri každej nehnuteľnostnej transakcii.</p>
+          <div class="team-card-footer">
+            <div class="team-badge">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Certifikovaný odborník
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="team-bg-decor" aria-hidden="true">
+    <svg class="team-decor-circle" width="480" height="480" viewBox="0 0 480 480" fill="none">
+      <circle cx="240" cy="240" r="239" stroke="var(--primary)" stroke-width="1"/>
+    </svg>
+    <svg class="team-decor-dots" width="180" height="180" viewBox="0 0 180 180" fill="none">
+      <pattern id="tdots" x="0" y="0" width="18" height="18" patternUnits="userSpaceOnUse">
+        <circle cx="3" cy="3" r="2" fill="var(--primary)"/>
+      </pattern>
+      <rect width="180" height="180" fill="url(#tdots)"/>
+    </svg>
+  </div>
+</section>
+
+<style>
+  #team_1 {
+    padding: 60px 0;
+    background-color: var(--bg-alt);
+    position: relative;
+    overflow: hidden;
+  }
+
+  #team_1 .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .team-bg-decor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .team-decor-circle {
+    position: absolute;
+    top: -200px;
+    right: -180px;
+    opacity: 0.04;
+  }
+
+  .team-decor-dots {
+    position: absolute;
+    bottom: 40px;
+    left: -20px;
+    opacity: 0.05;
+  }
+
+  /* Header */
+  .team-header {
+    text-align: center;
+    margin-bottom: 56px;
+  }
+
+  .team-eyebrow {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 14px;
+    position: relative;
+    padding: 0 20px;
+  }
+
+  .team-eyebrow::before,
+  .team-eyebrow::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 14px;
+    height: 1px;
+    background-color: var(--accent);
+    opacity: 0.6;
+  }
+
+  .team-eyebrow::before { right: 0; }
+  .team-eyebrow::after  { left: 0; }
+
+  .team-header h2 {
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--text);
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    margin: 0 0 16px;
+  }
+
+  .team-header-accent {
+    width: 44px;
+    height: 3px;
+    background: var(--accent);
+    border-radius: 2px;
+    margin: 0 auto 20px;
+  }
+
+  .team-header-sub {
+    font-size: 16px;
+    color: var(--text-light);
+    line-height: 1.7;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+
+  /* Grid */
+  .team-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  /* Card */
+  .team-card {
+    background: var(--bg);
+    border-radius: calc(var(--radius) + 6px);
+    overflow: hidden;
+    box-shadow:
+      0 1px 3px rgba(0,0,0,0.04),
+      0 6px 24px rgba(0,0,0,0.07);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .team-card:hover {
+    box-shadow:
+      0 2px 8px rgba(0,0,0,0.06),
+      0 16px 48px rgba(0,0,0,0.12);
+    transform: translateY(-4px);
+  }
+
+  /* Photo */
+  .team-photo {
+    overflow: hidden;
+    border-radius: calc(var(--radius) + 8px) calc(var(--radius) + 8px) 0 0;
+    margin-bottom: 0;
+    position: relative;
+  }
+
+  .team-photo img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+    transition: transform 0.5s ease;
+  }
+
+  .team-card:hover .team-photo img {
+    transform: scale(1.03);
+  }
+
+  /* Overlay */
+  .team-photo-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to top,
+      rgba(0,0,0,0.68) 0%,
+      rgba(0,0,0,0.18) 50%,
+      transparent 100%
+    );
+    opacity: 0;
+    transition: opacity 0.35s ease;
+    display: flex;
+    align-items: flex-end;
+    padding: 28px 24px;
+  }
+
+  .team-card:hover .team-photo-overlay {
+    opacity: 1;
+  }
+
+  .team-overlay-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .team-overlay-label {
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .team-overlay-divider {
+    width: 28px;
+    height: 2px;
+    background: var(--accent);
+    border-radius: 1px;
+  }
+
+  .team-overlay-exp {
+    font-size: 12px;
+    color: rgba(255,255,255,0.75);
+    font-weight: 500;
+  }
+
+  /* Card body */
+  .team-card-body {
+    padding: 22px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .team-card-top {
+    margin-bottom: 12px;
+  }
+
+  .team-card h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--text);
+    margin: 0 0 5px;
+    letter-spacing: -0.01em;
+    line-height: 1.25;
+  }
+
+  .team-role {
+    font-size: 12px;
+    color: var(--accent);
+    font-weight: 600;
+    display: block;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  .team-card p {
+    font-size: 14px;
+    color: var(--text-light);
+    line-height: 1.68;
+    margin: 0 0 16px;
+    flex: 1;
+  }
+
+  .team-card-footer
+
+<section id="testimonials_1" data-section="testimonials_1" class="animate-on-scroll" style="background:var(--bg-alt)">
+  <div class="container">
+    <div class="testimonials-header">
+      <p class="testimonials-eyebrow">Referencie</p>
+      <h2 data-field="headline">Čo Hovoria Naši Klienti</h2>
+      <div class="testimonials-header-accent"></div>
+    </div>
+    <div class="testimonials-grid">
+
+      <div class="testimonials-card animate-child" data-field="items" data-item="test_1">
+        <div class="testimonials-quote-icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.4 24H8C8 16.268 14.268 10 22 10v5.6C17.36 15.6 14.4 19.36 14.4 24ZM14.4 24v14H8V24H14.4ZM30.4 24H24C24 16.268 30.268 10 38 10v5.6C33.36 15.6 30.4 19.36 30.4 24ZM30.4 24v14H24V24H30.4Z"/>
+          </svg>
+        </div>
+        <div class="testimonials-stars">
+          <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="var(--accent)" stroke="var(--accent)" stroke-width="1"><polygon points="9,1.5 11.09,6.26 16.18,6.91 12.59,10.4 13.56,15.47 9,12.77 4.44,15.47 5.41,10.4 1.82,6.91 6.91,6.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="var(--accent)" stroke="var(--accent)" stroke-width="1"><polygon points="9,1.5 11.09,6.26 16.18,6.91 12.59,10.4 13.56,15.47 9,12.77 4.44,15.47 5.41,10.4 1.82,6.91 6.91,6.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="var(--accent)" stroke="var(--accent)" stroke-width="1"><polygon points="9,1.5 11.09,6.26 16.18,6.91 12.59,10.4 13.56,15.47 9,12.77 4.44,15.47 5.41,10.4 1.82,6.91 6.91,6.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="var(--accent)" stroke="var(--accent)" stroke-width="1"><polygon points="9,1.5 11.09,6.26 16.18,6.91 12.59,10.4 13.56,15.47 9,12.77 4.44,15.47 5.41,10.4 1.82,6.91 6.91,6.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="var(--accent)" stroke="var(--accent)" stroke-width="1"><polygon points="9,1.5 11.09,6.26 16.18,6.91 12.59,10.4 13.56,15.47 9,12.77 4.44,15.47 5.41,10.4 1.82,6.91 6.91,6.26"/></svg>
+        </div>
+        <p class="testimonials-text">"Právna kancelária jovdim mi pomohla vyriešiť zložitý obchodný spor, ktorý trval roky. Vďaka ich profesionalite a nasadeniu sme dosiahli výborný výsledok. Vrelo odporúčam každému podnikateľovi!"</p>
+        <div class="testimonials-author">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80" alt="" loading="lazy" />
+          <div>
+            <strong>Peter Sloboda</strong>
+            <span>Podnikateľ, jovdim</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonials-card animate-child" data-field="items" data-item="test_2">
+        <div class="testimonials-quote-icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.4 24H8C8 16.268 14.268 10 22 10v5.6C17.36 15.6 14.4 19.36 14.4 24ZM14.4 24v14H8V24H14.4ZM30.4 24H24C24 16.268 30.268 10 38 10v5.6C33.36 15.6 30.4 19.36 30.4 24ZM30.4 24v14H24V24H30.4Z"/>
+          </svg>
+        </div>
+        <div class="testimonials-stars">
+          <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="var(--accent)" stroke="var(--accent)" stroke-width="1"><polygon points="9,1.5 11.09,6.26 16.18,6.91 12.59,10.4 13.56,15.47 9,12.77 4.44,15.47 5.41,10.4 1.82,6.91 6.91,6.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="var(--accent)" stroke="var(--accent)" stroke-width="1"><polygon points="9,1.5 11.09,6.26 16.18,6.91 12.59,10.4 13.56,15.47 9,12.77 4.44,15.47 5.41,10.4 1.82,6.91 6.91,6.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="var(--accent)" stroke="var(--accent)" stroke-width="1"><polygon points="9,1.5 11.09,6.26 16.18,6.91 12.59,10.4 13.56,15.47 9,12.77 4.44,15.47 5.41,10.4 1.82,6.91 6.91,6.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="var(--accent)" stroke="var(--accent)" stroke-width="1"><polygon points="9,1.5 11.09,6.26 16.18,6.91 12.59,10.4 13.56,15.47 9,12.77 4.44,15.47 5.41,10.4 1.82,6.91 6.91,6.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="var(--accent)" stroke="var(--accent)" stroke-width="1"><polygon points="9,1.5 11.09,6.26 16.18,6.91 12.59,10.4 13.56,15.47 9,12.77 4.44,15.47 5.41,10.4 1.82,6.91 6.91,6.26"/></svg>
+        </div>
+        <p class="testimonials-text">"Po rozvode som potrebovala pomoc s úpravou starostlivosti o deti. Pani doktorka Horváthová bola nielen odborne zdatná, ale aj ľudsky veľmi empatická. Cítila som sa v bezpečí počas celého procesu."</p>
+        <div class="testimonials-author">
+          <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=200&q=80" alt="" loading="lazy" />
+          <div>
+            <strong>Mária Benešová</strong>
+            <span>Súkromná osoba, jovdim</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonials-card animate-child" data-field="items" data-item="test_3">
+        <div class="testimonials-quote-icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.4 24H8C8 16.268 14.268 10 22 10v5.6C17.36 15.6 14.4 19.36 14.4 24ZM14.4 24v14H8V24H14.4ZM30.4 24H24C24 16.268 30.268 10 38 10v5.6C33.36 15.6 30.4 19.36 30.4 24ZM30.4 24v14H24V24H30.4Z"/>
+          </svg>
+        </div>
+        <div class="testimonials-stars">
+          <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="var(--accent)" stroke="var(--accent)" stroke-width="1"><polygon points="9,1.5 11.09,6.26 16.18,6.91 12.59,10.4 13.56,15.47 9,12.77 4.44,15.47 5.41,10.4 1.82,6.91 6.91,6.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="var(--accent)" stroke="var(--accent)" stroke-width="1"><polygon points="9,1.5 11.09,6.26 16.18,6.91 12.59,10.4 13.56,15.47 9,12.77 4.44,15.47 5.41,10.4 1.82,6.91 6.91,6.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="var(--accent)" stroke="var(--accent)" stroke-width="1"><polygon points="9,1.5 11.09,6.26 16.18,6.91 12.59,10.4 13.56,15.47 9,12.77 4.44,15.47 5.41,10.4 1.82,6.91 6.91,6.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="var(--accent)" stroke="var(--accent)" stroke-width="1"><polygon points="9,1.5 11.09,6.26 16.18,6.91 12.59,10.4 13.56,15.47 9,12.77 4.44,15.47 5.41,10.4 1.82,6.91 6.91,6.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="var(--accent)" stroke="var(--accent)" stroke-width="1"><polygon points="9,1.5 11.09,6.26 16.18,6.91 12.59,10.4 13.56,15.47 9,12.77 4.44,15.47 5.41,10.4 1.82,6.91 6.91,6.26"/></svg>
+        </div>
+        <p class="testimonials-text">"Pri kúpe komerčnej nehnuteľnosti som potreboval spoľahlivého právnika. Tím jovdim skontroloval všetky zmluvy, odhalil skryté riziká a zabezpečil bezpečnú transakciu. Ich práca stojí za každý cent!"</p>
+        <div class="testimonials-author">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80" alt="" loading="lazy" />
+          <div>
+            <strong>Rastislav Mináč</strong>
+            <span>Investor do nehnuteľností</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+  #testimonials_1 {
+    padding: 60px 0;
+    background: var(--bg-alt);
+    overflow: hidden;
+  }
+
+  #testimonials_1 .container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .testimonials-header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .testimonials-eyebrow {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 14px;
+  }
+
+  .testimonials-header h2 {
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--text);
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    margin: 0;
+  }
+
+  .testimonials-header-accent {
+    width: 48px;
+    height: 3px;
+    background: var(--accent);
+    margin: 16px auto 0;
+    border-radius: 2px;
+  }
+
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .testimonials-card {
+    background: #ffffff;
+    border-radius: calc(var(--radius) + 4px);
+    padding: 32px 28px;
+    box-shadow:
+      0 1px 3px rgba(0, 0, 0, 0.04),
+      0 6px 24px rgba(0, 0, 0, 0.06);
+    border: 1px solid rgba(
+
+<section id="faq_1" data-section="faq_1" class="animate-on-scroll">
+  <div class="container">
+    <div class="faq-header">
+      <h2 data-field="headline">Často Kladené Otázky</h2>
+      <div class="faq-header-accent"></div>
+    </div>
+    <div class="faq-list">
+
+      <details class="animate-child" data-field="items" data-item="faq_1">
+        <summary>
+          <span>Ako si môžem dohodnúť konzultáciu?</span>
+          <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </summary>
+        <p>Konzultáciu si môžete dohodnúť telefonicky na čísle 123445, e-mailom na jovdm.company.sk alebo prostredníctvom kontaktného formulára na našej webstránke. Prvá konzultácia je bezplatná.</p>
+      </details>
+
+      <details class="animate-child" data-field="items" data-item="faq_2">
+        <summary>
+          <span>Koľko stojí právne zastúpenie?</span>
+          <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </summary>
+        <p>Cena právnych služieb závisí od druhu a náročnosti prípadu. Po úvodnej konzultácii vám poskytneme transparentnú cenovú ponuku bez skrytých poplatkov. Pracujeme na základe hodinovej odmeny alebo paušálneho poplatku.</p>
+      </details>
+
+      <details class="animate-child" data-field="items" data-item="faq_3">
+        <summary>
+          <span>Ako dlho trvá riešenie právneho prípadu?</span>
+          <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </summary>
+        <p>Dĺžka riešenia prípadu závisí od jeho komplexnosti a typu konania. Jednoduché zmluvy môžeme pripraviť do niekoľkých dní, zatiaľ čo súdne spory môžu trvať mesiace. Vždy vás budeme priebežne informovať o stave vášho prípadu.</p>
+      </details>
+
+      <details class="animate-child" data-field="items" data-item="faq_4">
+        <summary>
+          <span>Zachováte diskrétnosť mojich informácií?</span>
+          <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </summary>
+        <p>Áno, absolútne. Všetky informácie, ktoré nám zdieľate, sú chránené advokátskou mlčanlivosťou. Vaše osobné a právne záležitosti zostanú prísne dôverné v súlade s platnou legislatívou.</p>
+      </details>
+
+      <details class="animate-child" data-field="items" data-item="faq_5">
+        <summary>
+          <span>Zastupujete klientov aj mimo mesta jovdim?</span>
+          <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </summary>
+        <p>Áno, zastupujeme klientov na celom území Slovenska. Hoci naša kancelária sídli v meste jovdim, nemáme geografické obmedzenia a sme schopní zastupovať klientov na všetkých slovenských súdoch a úradoch.</p>
+      </details>
+
+      <details class="animate-child" data-field="items" data-item="faq_6">
+        <summary>
+          <span>Čo mám priniesť na prvú konzultáciu?</span>
+          <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </summary>
+        <p>Na prvú konzultáciu prineste všetky relevantné dokumenty súvisiace s vaším prípadom – zmluvy, korešpondenciu, rozhodnutia úradov alebo súdov a akékoľvek iné podklady. Čím viac informácií prinesiete, tým presnejšiu radu vám môžeme poskytnúť.</p>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact_1" data-section="contact_1" class="animate-on-scroll" style="background:var(--bg-alt)">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info animate-child">
+        <div class="contact-accent-line"></div>
+        <h2 data-field="headline">Kontaktujte Nás</h2>
+        <p class="contact-intro-text" data-field="text">Ste pripravení urobiť prvý krok k vyriešeniu vášho právneho problému? Neváhajte nás kontaktovať. Náš tím je k dispozícii pre vaše otázky a bezplatnú úvodnú konzultáciu. Sme tu pre vás.</p>
+        <div class="contact-details">
+          <div class="contact-detail-item">
+            <div class="contact-icon-wrap">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </div>
+            <div class="contact-detail-text">
+              <span class="contact-detail-label">Telefón</span>
+              <a href="tel:123445" data-field="phone" class="contact-detail-value">123445</a>
+            </div>
+          </div>
+          <div class="contact-detail-item">
+            <div class="contact-icon-wrap">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                <path d="M2 7l10 7 10-7"/>
+              </svg>
+            </div>
+            <div class="contact-detail-text">
+              <span class="contact-detail-label">E-mail</span>
+              <a href="mailto:jovdm.company.sk" data-field="email" class="contact-detail-value">jovdm.company.sk</a>
+            </div>
+          </div>
+          <div class="contact-detail-item">
+            <div class="contact-icon-wrap">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+                <circle cx="12" cy="9" r="2.5"/>
+              </svg>
+            </div>
+            <div class="contact-detail-text">
+              <span class="contact-detail-label">Adresa</span>
+              <span data-field="address" class="contact-detail-value">jovdim address</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-trust-badge">
+          <div class="contact-trust-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              <polyline points="9 12 11 14 15 10"/>
+            </svg>
+          </div>
+          <span>Bezplatná úvodná konzultácia</span>
+        </div>
+      </div>
+      <div class="contact-form-wrap animate-child">
+        <div class="contact-form-header">
+          <h3 class="contact-form-title">Napíšte nám správu</h3>
+          <p class="contact-form-subtitle">Odpovieme vám do 24 hodín</p>
+        </div>
+        <form action="#" class="contact-form">
+          <div class="contact-field-group">
+            <label class="contact-label" for="contact-name">Meno a priezvisko</label>
+            <input type="text" id="contact-name" name="name" class="contact-input" placeholder="Ján Novák" autocomplete="name" required>
+          </div>
+          <div class="contact-field-group">
+            <label class="contact-label" for="contact-email">E-mailová adresa</label>
+            <input type="email" id="contact-email" name="email" class="contact-input" placeholder="jan.novak@email.sk" autocomplete="email" required>
+          </div>
+          <div class="contact-field-group">
+            <label class="contact-label" for="contact-phone">Telefónne číslo</label>
+            <input type="tel" id="contact-phone" name="phone" class="contact-input" placeholder="+421 900 000 000" autocomplete="tel">
+          </div>
+          <div class="contact-field-group">
+            <label class="contact-label" for="contact-message">Vaša správa</label>
+            <textarea id="contact-message" name="message" class="contact-textarea" placeholder="Popíšte vašu situáciu alebo právny problém..." required></textarea>
+          </div>
+          <button type="submit" class="contact-submit">
+            <span>Odoslať správu</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="22" y1="2" x2="11" y2="13"/>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+            </svg>
+          </button>
+          <p class="contact-privacy-note">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+            </svg>
+            Vaše údaje sú v bezpečí a nikdy ich nezdieľame s tretími stranami.
+          </p>
+        </form>
+      </div>
+    </div>
+    <div class="contact-map animate-child">
+      <iframe src="https://maps.google.com/maps?q=jovdim%20address&output=embed" width="100%" height="300" style="border:0; border-radius:calc(var(--radius) + 4px);" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<style>
+  #contact_1 {
+    padding: 60px 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  #contact_1::before {
+    content: '';
+    position: absolute;
+    top: -120px;
+    right: -120px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: var(--accent);
+    opacity: 0.04;
+    pointer-events: none;
+  }
+
+  #contact_1::after {
+    content: '';
+    position: absolute;
+    bottom: -80px;
+    left: -80px;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background: var(--primary);
+    opacity: 0.05;
+    pointer-events: none;
+  }
+
+  #contact_1 .container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 24px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .contact-accent-line {
+    width: 48px;
+    height: 3px;
+    background: var(--accent);
+    margin-bottom: 20px;
+    border-radius: 2px;
+  }
+
+  .contact-info h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text);
+    margin: 0 0 16px 0;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+
+  .contact-intro-text {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.75;
+    margin: 0 0 32px 0;
+  }
+
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 32px;
+  }
+
+  .contact-detail-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+  }
+
+  .contact-detail-item:last-child {
+    border-bottom: none;
+  }
+
+  .contact-icon-wrap {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: color-mix(in srgb, var(--accent) 12%, transparent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--accent);
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+
+  .contact-detail-item:hover .contact-icon-wrap {
+    background: color-mix(in srgb, var(--accent) 20%, transparent);
+    transform: scale(1.06);
+  }
+
+  .contact-detail-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .contact-detail-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .contact-detail-value {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text);
+    text-decoration: none;
+    line-height: 1.4;
+    transition: color 0.2s ease;
+  }
+
+  a.contact-detail-value:hover {
+    color: var(--accent);
+  }
+
+  .contact-trust-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: color-mix(in srgb, var(--primary) 6%, transparent);
+    border: 1px solid color-mix(in srgb, var(--primary) 12%, transparent);
+    border-radius: 40px;
+    padding: 10px 18px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text);
+    letter-spacing: 0.01em;
+  }
+
+  .contact-trust-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent);
+    flex-shrink: 0;
+  }
+
+  .contact-form-wrap {
+    background: white;
+    border-radius: calc(var(--radius) + 4px);
+    padding: 32px 24px;
+    box-shadow:
+      0 1px 3px rgba(0,0,0,0.04),
+      0 6px 24px rgba(0,0,0,0.06),
+      0 0 0 1px rgba(0,0,0,0.03);
+  }
+
+  .contact-form-header {
+    margin-bottom: 28px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.07);
+  }
+
+  .contact-form-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text);
+    margin: 0 0 4px 0;
+    letter-spacing: -0.01em;
+  }
+
+  .contact-form-subtitle {
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-field-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+
+  .contact-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 7px;
+    letter-spacing: 0.01em;
+  }
+
+  .contact-input,
+  .contact-textarea {
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: var(--radius);
+    padding: 14px 18px;
+    width: 100%;
+    font-size: 15px;
+    font-family: inherit;
+    color: var(--text);
+    background: #fafafa;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  .contact-input::placeholder,
+  .contact-textarea::placeholder {
+    color: #bbb;
+  }
+
+  .contact-input:focus,
+  .contact-textarea:focus {
+    border-color: var(--primary);
+    outline: none;
+    background: white;
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary) 10%, transparent);
+  }
+
+  .contact-textarea {
+    min-height: 140px;
+    resize: vertical;
+    line-height: 1.6;
+  }
+
+  .contact-submit {
+    width: 100%;
+    background: var(--accent);
+    color: white;
+    padding: 15
+<script src="script.js"></script>
+</body>
+</html>
