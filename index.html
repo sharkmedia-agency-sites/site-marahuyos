@@ -25,94 +25,68 @@
       </ul>
     </nav>
 <!-- SK_PROPOSAL_START -->
-<style>
-  .sk-prop-wrap{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:linear-gradient(135deg,#0a1628 0%,#132847 50%,#0d2137 100%);color:#fff;padding:48px 24px 0;text-align:center}
-  .sk-prop-inner{max-width:960px;margin:0 auto}
-  .sk-prop-title{font-size:28px;font-weight:700;margin:0 0 8px}
-  .sk-prop-sub{font-size:15px;color:#94a3b8;margin:0 0 32px}
-  .sk-prop-grid{display:flex;gap:32px;text-align:left;align-items:stretch}
-  .sk-prop-left{flex:1;background:rgba(30,64,120,0.45);border-radius:12px;padding:28px 24px;border:1px solid rgba(56,120,200,0.25)}
-  .sk-prop-right{width:280px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;flex-shrink:0}
-  .sk-prop-price-line{font-size:22px;font-weight:700;color:#38bdf8;margin:0 0 4px}
-  .sk-prop-price-line .sk-prop-old{text-decoration:line-through;color:#64748b;font-weight:400;font-size:18px;margin-right:8px}
-  .sk-prop-valid{font-size:13px;color:#f59e0b;margin:0 0 20px;font-weight:600}
-  .sk-prop-features{list-style:none;padding:0;margin:0 0 16px}
-  .sk-prop-features li{font-size:14px;color:#e2e8f0;padding:6px 0;display:flex;align-items:flex-start;gap:8px;line-height:1.4}
-  .sk-prop-features li::before{content:"✓";color:#22c55e;font-weight:700;flex-shrink:0;margin-top:1px}
-  .sk-prop-renewal{font-size:13px;color:#94a3b8;font-style:italic;margin-top:8px}
-  .sk-prop-details-toggle{margin-top:12px}
-  .sk-prop-details-toggle summary{font-size:13px;color:#38bdf8;cursor:pointer;list-style:none;display:flex;align-items:center;gap:4px}
-  .sk-prop-details-toggle summary::before{content:"▶";font-size:10px;transition:transform 0.2s}
-  .sk-prop-details-toggle[open] summary::before{transform:rotate(90deg)}
-  .sk-prop-details-toggle .sk-prop-details-body{margin-top:12px;font-size:13px;color:#cbd5e1;line-height:1.6}
-  .sk-prop-qr{background:#fff;border-radius:12px;padding:12px;display:inline-block}
-  .sk-prop-qr svg{display:block;width:180px;height:180px}
-  .sk-prop-cta{display:inline-block;background:#2563eb;color:#fff!important;text-decoration:none;padding:14px 32px;border-radius:8px;font-size:16px;font-weight:600;transition:background 0.2s}
-  .sk-prop-cta:hover{background:#1d4ed8}
-  .sk-prop-decline{font-size:12px;color:#64748b;text-decoration:none;margin-top:4px;display:inline-block}
-  .sk-prop-decline:hover{color:#94a3b8;text-decoration:underline}
-  .sk-prop-divider{text-align:center;padding:40px 24px 24px;background:linear-gradient(180deg,#0d2137 0%,transparent 100%)}
-  .sk-prop-divider-text{font-size:15px;color:#f59e0b;font-weight:600;display:flex;align-items:center;justify-content:center;gap:12px}
-  .sk-prop-divider-text::before,.sk-prop-divider-text::after{content:"↓";font-size:20px}
-  @media(max-width:700px){
-    .sk-prop-grid{flex-direction:column;gap:24px}
-    .sk-prop-right{width:100%}
-    .sk-prop-wrap{padding:32px 16px 0}
-  }
-</style>
-<div class="sk-prop-wrap">
-  <div class="sk-prop-inner">
-    <p class="sk-prop-title">Vaša nová webová stránka je pripravená! 🎉</p>
-    <p class="sk-prop-sub">Vytvorené pre: <strong>mara huyos, marahuyos, philippines</strong></p>
+<div id="sk-proposal" style="all:initial;display:block;position:relative;z-index:99999;width:100%;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:#0f172a;color:#fff;padding:0;margin:0;line-height:1.5">
 
-    <div class="sk-prop-grid">
-      <div class="sk-prop-left">
-        <p class="sk-prop-price-line">
-          <span class="sk-prop-old">399 €</span>
-          299 €
-        </p>
-        <p class="sk-prop-valid">Cena platí do 26.3.2026</p>
+  <!-- Header -->
+  <div style="text-align:center;padding:40px 20px 0">
+    <h2 style="all:initial;display:block;font-family:inherit;font-size:26px;font-weight:700;color:#fff;margin:0 0 6px;line-height:1.3;text-align:center">Vaša nová webová stránka je pripravená! 🎉</h2>
+    <p style="all:initial;display:block;font-family:inherit;font-size:14px;color:#94a3b8;margin:0 0 30px;text-align:center;line-height:1.4">Vytvorené pre: <strong style="color:#e2e8f0">mara huyos, marahuyos, philippines</strong></p>
+  </div>
 
-        <ul class="sk-prop-features">
-          <li>Vlastná doména (napr. firma.sk) + hosting na 1 rok</li>
-          <li>Kompletná moderná webstránka vrátane mobilnej verzie</li>
-          <li>Úprava textov, obrázkov a sekcií podľa Vašich požiadaviek</li>
-          <li>Profesionálny firemný email (napr. info@firma.sk)</li>
-          <li>SEO optimalizácia, SSL certifikát, rýchle načítanie</li>
-        </ul>
+  <!-- Two columns -->
+  <div style="display:flex;flex-wrap:wrap;max-width:900px;margin:0 auto;padding:0 20px 40px;gap:24px;box-sizing:border-box">
 
-        <details class="sk-prop-details-toggle">
-          <summary>Zobraziť viac detailov</summary>
-          <div class="sk-prop-details-body">
-            <p>✓ Doménu a hosting platíme za Vás na prvý rok.</p>
-            <p>✓ Webstránka je plne responzívna — funguje na mobile, tablete aj PC.</p>
-            <p>✓ Email s automatickým presmerovaním na Váš súkromný email.</p>
-            <p>✓ SSL certifikát (zelený zámok) — bezpečné pripojenie pre návštevníkov.</p>
-            <p>✓ Načítanie do 3 sekúnd celosvetovo.</p>
-            <p>✓ Po objednaní upravíme texty a obrázky podľa Vašich pokynov.</p>
-          </div>
-        </details>
+    <!-- LEFT: Pricing + Features -->
+    <div style="flex:1 1 340px;min-width:280px;background:#1e293b;border-radius:12px;padding:28px 24px;box-sizing:border-box;border:1px solid #334155">
 
-        <p class="sk-prop-renewal">Obnova na ďalší rok iba 49 € (vrátane všetkých služieb)</p>
+      <!-- Price -->
+      <div style="margin:0 0 4px">
+        <span style="font-size:16px;color:#64748b;text-decoration:line-through;margin-right:8px">29931 €</span>
+        <span style="font-size:28px;font-weight:700;color:#38bdf8">299 €</span>
+      </div>
+      <p style="all:initial;display:block;font-family:inherit;font-size:13px;color:#f59e0b;font-weight:600;margin:0 0 20px;line-height:1.4">Cena platí do 26.3.2026</p>
+
+      <!-- Features -->
+      <div style="margin:0 0 16px">
+        <div style="display:flex;align-items:flex-start;gap:8px;padding:7px 0;font-size:14px;color:#e2e8f0;line-height:1.4"><span style="color:#22c55e;font-weight:700;flex-shrink:0">✓</span> Vlastná doména (napr. firma.sk) + hosting na 1 rok</div>
+        <div style="display:flex;align-items:flex-start;gap:8px;padding:7px 0;font-size:14px;color:#e2e8f0;line-height:1.4"><span style="color:#22c55e;font-weight:700;flex-shrink:0">✓</span> Kompletná moderná webstránka vrátane mobilnej verzie</div>
+        <div style="display:flex;align-items:flex-start;gap:8px;padding:7px 0;font-size:14px;color:#e2e8f0;line-height:1.4"><span style="color:#22c55e;font-weight:700;flex-shrink:0">✓</span> Úprava textov, obrázkov a sekcií podľa Vašich požiadaviek</div>
+        <div style="display:flex;align-items:flex-start;gap:8px;padding:7px 0;font-size:14px;color:#e2e8f0;line-height:1.4"><span style="color:#22c55e;font-weight:700;flex-shrink:0">✓</span> Profesionálny firemný email (napr. info@firma.sk)</div>
+        <div style="display:flex;align-items:flex-start;gap:8px;padding:7px 0;font-size:14px;color:#e2e8f0;line-height:1.4"><span style="color:#22c55e;font-weight:700;flex-shrink:0">✓</span> SEO optimalizácia, SSL certifikát, rýchle načítanie</div>
       </div>
 
-      <div class="sk-prop-right">
-        <div class="sk-prop-qr">
-          <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 31 31" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h31v31H0z"/><path stroke="#000000" d="M1 1.5h7m2 0h1m2 0h1m1 0h1m2 0h3m2 0h7M1 2.5h1m5 0h1m2 0h3m2 0h4m2 0h1m1 0h1m5 0h1M1 3.5h1m1 0h3m1 0h1m1 0h2m2 0h1m2 0h1m2 0h1m1 0h1m1 0h1m1 0h3m1 0h1M1 4.5h1m1 0h3m1 0h1m1 0h1m2 0h1m1 0h1m2 0h2m4 0h1m1 0h3m1 0h1M1 5.5h1m1 0h3m1 0h1m1 0h3m1 0h1m1 0h1m1 0h5m1 0h1m1 0h3m1 0h1M1 6.5h1m5 0h1m1 0h2m2 0h2m1 0h1m6 0h1m5 0h1M1 7.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M9 8.5h1m1 0h2m2 0h1m3 0h2M1 9.5h1m1 0h5m2 0h1m1 0h2m3 0h2m2 0h1m1 0h5M5 10.5h2m1 0h3m1 0h3m1 0h10m3 0h1M1 11.5h2m1 0h1m2 0h4m3 0h3m2 0h1m1 0h2m2 0h1M1 12.5h1m2 0h1m1 0h1m1 0h1m1 0h1m2 0h2m2 0h1m4 0h5m1 0h1M1 13.5h2m2 0h1m1 0h1m2 0h1m1 0h1m2 0h1m2 0h1m7 0h2M3 14.5h1m2 0h1m4 0h1m4 0h10m3 0h1M4 15.5h1m2 0h1m1 0h5m2 0h1m1 0h1m2 0h1m1 0h1m2 0h2M2 16.5h1m3 0h1m1 0h2m2 0h1m2 0h1m1 0h1m1 0h1m1 0h1m1 0h2m3 0h1M3 17.5h2m1 0h2m1 0h4m3 0h1m1 0h1m2 0h1m4 0h2M1 18.5h3m1 0h1m3 0h3m1 0h3m1 0h5m1 0h3m1 0h1m1 0h1M1 19.5h1m4 0h3m2 0h2m1 0h3m1 0h2m1 0h5m1 0h1M1 20.5h1m4 0h1m2 0h1m1 0h1m2 0h1m7 0h1m2 0h1m2 0h1M1 21.5h1m1 0h7m2 0h1m2 0h2m1 0h2m1 0h5m1 0h3M9 22.5h1m6 0h6m3 0h5M1 23.5h7m3 0h3m2 0h1m1 0h1m1 0h2m1 0h1m1 0h3M1 24.5h1m5 0h1m1 0h3m1 0h1m1 0h2m3 0h2m3 0h1m2 0h2M1 25.5h1m1 0h3m1 0h1m1 0h5m4 0h1m2 0h5m1 0h1M1 26.5h1m1 0h3m1 0h1m1 0h1m3 0h5m2 0h3m3 0h4M1 27.5h1m1 0h3m1 0h1m1 0h1m1 0h3m2 0h2m4 0h7M1 28.5h1m5 0h1m7 0h1m1 0h1m2 0h2m1 0h2m1 0h1m1 0h1M1 29.5h7m1 0h1m4 0h2m2 0h3m1 0h2m1 0h3"/></svg>
-
+      <!-- Show more -->
+      <details style="margin:0 0 12px">
+        <summary style="font-size:13px;color:#38bdf8;cursor:pointer;list-style:none;display:flex;align-items:center;gap:4px;user-select:none">▸ Zobraziť viac detailov</summary>
+        <div style="margin-top:12px;font-size:13px;color:#cbd5e1;line-height:1.7">
+          <p style="margin:0 0 4px">✓ Doménu a hosting platíme za Vás na prvý rok.</p>
+          <p style="margin:0 0 4px">✓ Webstránka je plne responzívna — funguje na mobile, tablete aj PC.</p>
+          <p style="margin:0 0 4px">✓ Email s automatickým presmerovaním na Váš súkromný email.</p>
+          <p style="margin:0 0 4px">✓ SSL certifikát (zelený zámok) — bezpečné pripojenie pre návštevníkov.</p>
+          <p style="margin:0 0 4px">✓ Načítanie do 3 sekúnd celosvetovo.</p>
+          <p style="margin:0">✓ Po objednaní upravíme texty a obrázky podľa Vašich pokynov.</p>
         </div>
-        <a href="https://sandbox.square.link/u/HBfNZy43" target="_blank" class="sk-prop-cta">
-          Objednať webstránku
-        </a>
-        <a href="http://localhost:3000/proposal/marahuyos-9s4g" class="sk-prop-decline">Nemám záujem</a>
-      </div>
+      </details>
+
+      <p style="all:initial;display:block;font-family:inherit;font-size:13px;color:#94a3b8;font-style:italic;margin:12px 0 0;line-height:1.4">Obnova na ďalší rok iba 49 € (vrátane všetkých služieb)</p>
+    </div>
+
+    <!-- RIGHT: QR + CTA -->
+    <div style="flex:0 0 260px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;min-width:240px">
+      <div style="background:#fff;border-radius:12px;padding:12px;display:inline-block;line-height:0"><svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 31 31" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h31v31H0z"/><path stroke="#000000" d="M1 1.5h7m2 0h1m1 0h4m1 0h4m2 0h7M1 2.5h1m5 0h1m3 0h1m1 0h2m1 0h1m1 0h1m2 0h1m1 0h1m5 0h1M1 3.5h1m1 0h3m1 0h1m1 0h1m2 0h1m3 0h1m2 0h1m1 0h1m1 0h1m1 0h3m1 0h1M1 4.5h1m1 0h3m1 0h1m1 0h3m3 0h1m1 0h2m4 0h1m1 0h3m1 0h1M1 5.5h1m1 0h3m1 0h1m1 0h1m2 0h1m1 0h1m1 0h6m1 0h1m1 0h3m1 0h1M1 6.5h1m5 0h1m1 0h2m2 0h1m2 0h2m5 0h1m5 0h1M1 7.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M9 8.5h5m2 0h1m2 0h2M1 9.5h1m1 0h5m3 0h3m2 0h1m1 0h1m2 0h1m1 0h5M1 10.5h1m2 0h1m1 0h1m1 0h4m1 0h2m1 0h10m3 0h1M2 11.5h1m1 0h1m2 0h3m1 0h1m2 0h3m2 0h1m1 0h2m2 0h1M11 12.5h1m1 0h2m1 0h1m5 0h5m1 0h1M1 13.5h2m4 0h1m5 0h1m1 0h1m1 0h2m7 0h2M1 14.5h2m6 0h3m1 0h1m4 0h8m3 0h1M6 15.5h3m1 0h3m3 0h1m1 0h1m2 0h1m1 0h1m2 0h2M1 16.5h4m3 0h1m1 0h4m1 0h2m2 0h1m1 0h1m1 0h2m3 0h1M2 17.5h2m3 0h1m1 0h1m3 0h1m2 0h3m2 0h1m4 0h2M1 18.5h4m4 0h1m3 0h3m1 0h5m1 0h3m1 0h1m1 0h1M1 19.5h1m3 0h1m1 0h1m1 0h1m2 0h8m1 0h5m1 0h1M1 20.5h1m2 0h3m1 0h2m1 0h1m2 0h1m2 0h1m4 0h1m2 0h1m2 0h1M1 21.5h1m1 0h1m3 0h6m2 0h1m2 0h2m1 0h5m1 0h3M9 22.5h1m6 0h6m3 0h5M1 23.5h7m4 0h2m2 0h3m1 0h2m1 0h1m1 0h3M1 24.5h1m5 0h1m1 0h2m1 0h2m1 0h3m2 0h2m3 0h1m2 0h2M1 25.5h1m1 0h3m1 0h1m1 0h2m2 0h1m4 0h1m2 0h5m1 0h1M1 26.5h1m1 0h3m1 0h1m1 0h1m1 0h2m2 0h1m1 0h1m2 0h3m3 0h4M1 27.5h1m1 0h3m1 0h1m1 0h5m1 0h3m4 0h7M1 28.5h1m5 0h1m3 0h2m4 0h1m2 0h2m1 0h2m1 0h1m1 0h1M1 29.5h7m1 0h1m1 0h1m2 0h2m2 0h3m1 0h2m1 0h3"/></svg>
+</div>
+      <a href="https://sandbox.square.link/u/mOp8AXzH" target="_blank" style="display:inline-block;background:#2563eb;color:#fff;text-decoration:none;padding:14px 32px;border-radius:8px;font-size:16px;font-weight:600;text-align:center;font-family:inherit;line-height:1">Objednať webstránku</a>
+      <a href="http://localhost:3000/proposal/marahuyos-9s4g" style="font-size:12px;color:#64748b;text-decoration:none;font-family:inherit">Nemám záujem</a>
     </div>
   </div>
-</div>
-<div class="sk-prop-divider">
-  <p class="sk-prop-divider-text">Tu začína Vaša nová webstránka</p>
+
+  <!-- Divider -->
+  <div style="text-align:center;padding:20px 20px 24px;border-top:1px solid #334155">
+    <p style="all:initial;display:inline-flex;align-items:center;gap:10px;font-family:inherit;font-size:14px;color:#f59e0b;font-weight:600;margin:0;line-height:1">↓ Tu začína Vaša nová webstránka ↓</p>
+  </div>
 </div>
 <!-- SK_PROPOSAL_END -->
+
 
 
     <div class="nav-actions">
